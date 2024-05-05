@@ -163,7 +163,7 @@ object DownloadUtil {
                                 addOption("-v")
                             }*/
                 if (autoSubtitle) {
-                    addOption("--write-auto-subs")
+                    addOption("--embed-thumbnail")
                     if (!autoTranslatedSubtitles) {
                         addOption("--extractor-args", "youtube:skip=translated_subs")
                     }
